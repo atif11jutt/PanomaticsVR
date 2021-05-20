@@ -1,0 +1,25 @@
+.project-card .image {
+  background-size: cover;
+  background-position: center;
+  padding-top: 60%;
+  width: 100%;
+}
+
+a.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .wizard > .steps ul li {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .wizard > .content {
+    min-height: 35em;
+  }
+}
+
